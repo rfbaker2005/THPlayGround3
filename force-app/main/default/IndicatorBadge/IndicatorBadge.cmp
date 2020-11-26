@@ -1,0 +1,6 @@
+<aura:component>
+    <aura:attribute name="badge" type="Object" />
+    <lightning:icon iconName="{!'slds-size_xxx-small' + v.badge.icon}"
+        class="{! 'slds-box slds-box_x-small slds-align_absolute-center ' + v.badge.color}"
+        alternativeText="{!v.badge.label}" />
+</aura:component>

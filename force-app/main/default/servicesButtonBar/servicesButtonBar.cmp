@@ -1,0 +1,26 @@
+<!--
+ - Created by rbaker on 8/17/2020.
+ -->
+<aura:component implements="flexipage:availableForRecordHome" description="SupportToolQuickLinks" access="public">
+    <div class="demo-only" style="padding:0.5rem;background:#16325c">
+        <lightning:layout horizontalalign="space">
+            <lightning:layoutItem padding="around-small">
+                <div class="custom-box">Support Tool Quick Links</div>
+            </lightning:layoutItem>
+            <lightning:layoutItem padding="around-small">
+                <div class="slds-button-group" role="group">
+                    <button class="slds-button slds-button_inverse">Verify &amp; View User</button>
+                    <button class="slds-button slds-button_inverse">Account Details</button>
+                    <button class="slds-button slds-button_inverse">Resolve SSN Conflicts</button>
+                    <button class="slds-button slds-button_inverse">Find Ineligible Reasons</button>
+                    <button class="slds-button slds-button_inverse">Audience &amp; Efile</button>
+                    <button class="slds-button slds-button_inverse">Points History</button>
+                    <button class="slds-button slds-button_inverse">Program Activities</button>
+                    <button class="slds-button slds-button_inverse">Linked Trackers</button>
+                    <button class="slds-button slds-button_inverse">User Activities</button>
+                    <button class="slds-button slds-button_inverse">Employer Configurations</button>
+                </div>
+            </lightning:layoutItem>
+        </lightning:layout>
+    </div>
+</aura:component>
